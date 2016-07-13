@@ -8,5 +8,5 @@ this is my job interview exam
 <pre><code>int i = 1;
 void main()
 {
-int i = i;
+  int i = i;
 }</code></pre>
