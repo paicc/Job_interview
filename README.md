@@ -13,7 +13,7 @@ void main()
 }</code></pre>
 
   <ol>
-  <li>The i whithin main will have an undefined value<li>
+  <li>The i whithin main will have an undefined value</li>
   <li>The i within main wil have a value of 1</li>
   <li>The compiler will not allow this statement</li>
   <li>The i within main will have a value of 0</li>
@@ -21,4 +21,14 @@ void main()
 
 <li>what does the following program 'print'?</li>
 <pre><code>
-
+#include <iostream>
+using namespace std;
+int main()
+{
+  int x=2,y,z;
+  x *=(y=z=5);
+  cout << x <<end1;
+  
+  z=3;
+  
+  
