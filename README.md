@@ -3,9 +3,9 @@
 this is my job interview exam
 
 ##C code
-1.  Which of the following statement describe the results of executing the code snippet below in C?
-<code>int i = 1;
+<li>Which of the following statement describe the results of executing the code snippet below in C?</li>
+<pre><code>int i = 1;
 void main()
 {
 int i = i;
-}</code>
+}</code></pre>
