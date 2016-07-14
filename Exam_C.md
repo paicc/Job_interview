@@ -4,12 +4,13 @@ this is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ##C code
 <ol>
 <li>Which of the following statement describe the results of executing the code snippet below in C?</li>
-<pre><code>
+```C++
 int i = 1;
 void main()
 {
   int i = i;
-}</code></pre>
+}
+```
 
   <ol>
   <li>The i whithin main will have an undefined value</li>
@@ -19,7 +20,7 @@ void main()
   </ol>
 
 <li>what does the following program 'print'?</li>
-<pre><code>
+```C++
 \#include <iostream>
 using namespace std;
 int main()
@@ -36,4 +37,4 @@ int main()
   x=(y||z); cout << x << end1;
   return 0;
 }
-</code></pre>
+```
