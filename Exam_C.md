@@ -62,12 +62,12 @@ int main() {
   return 0;
 }
 </code></pre>
-  <ol>
-  <li>8</li>
-  <li>9</li>
-  <li>10</li>
-  <li>11</li>
-  </ol>
+<ol>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+</ol>
 
 #####Note: while(x) == while (x != 0)
 
