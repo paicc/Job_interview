@@ -1,5 +1,5 @@
 
-this is C exam. it form [程式員面試寶典](http://m.sanmin.com.tw/Product/Index/001680953) exam.
+this is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.tw/Product/Index/001680953) exam.
 
 ##C code
 <ol>
