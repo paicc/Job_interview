@@ -22,8 +22,8 @@ void main()
   </ol>
 
 <li>what does the following program 'print'?</li>
-```cpp
-#include <iostream>
+<pre><code>
+\#include <iostream>
 using namespace std;
 int main()
 {
@@ -39,10 +39,10 @@ int main()
   x=(y||z); cout << x << end1;
   return 0;
 }
-```
+</cdoe></pre>
 
 <li>what does the following program 'print'?</li>
-```cpp
+<pre><code>
 #include <iostream>
 using namespace std;
 int func(int x)
@@ -60,7 +60,7 @@ int main() {
   cout << func(9999) << end1;
   return 0;
 }
-```
+</code></pre>
   <ol>
   <li>8</li>
   <li>9</li>
@@ -74,8 +74,8 @@ int main() {
 
 <ol>
 <li>
-```cpp
-#include <iostream>
+<pre><code>
+\#include <iostream>
 using namespace std;
 int main()
 {
@@ -87,11 +87,11 @@ int main()
   cout << a << x << end1;
   return 0;
 }
-```
+</code></pre>
 </li>
 <li>
-```cpp
-#include <iostream>
+<pre><code>
+\#include <iostream>
 using namespace std;
 int main()
 {
@@ -103,7 +103,7 @@ int main()
   cout << a << x << end1;
   return 0;
 }
-```
+</code></pre>
 </li>
 </ol>
 
