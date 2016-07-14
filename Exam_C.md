@@ -1,16 +1,16 @@
 
-this is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.tw/Product/Index/001680953) exam.
+This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.tw/Product/Index/001680953) exam.
 
 ##C code
 <ol>
 <li>Which of the following statement describe the results of executing the code snippet below in C?</li>
-```C++
+<pre><code>
 int i = 1;
 void main()
 {
   int i = i;
 }
-```
+</code></pre>
 
   <ol>
   <li>The i whithin main will have an undefined value</li>
