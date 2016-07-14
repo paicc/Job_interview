@@ -4,13 +4,13 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ##C code
 
 1. Which of the following statement describe the results of executing the code snippet below in C?
-<pre><code>
+```c
 int i = 1;
 void main()
 {
   int i = i;
 }
-</code></pre>
+```
 
   
   1. The i whithin main will have an undefined value
@@ -19,7 +19,7 @@ void main()
   4. The i within main will have a value of 0
 
 2. what does the following program 'print'?
-```cpp
+```c
 #include <iostream>
 using namespace std;
 int main()
@@ -39,7 +39,7 @@ int main()
 ```
 
 3. what does the following program 'print'?
-```cpp
+```c
 #include <iostream>
 using namespace std;
 int func(int x)
@@ -58,7 +58,7 @@ int main() {
   return 0;
 }
 ```
-  1. 8
+  1.8
   2. 9
   3. 10
   4. 11
