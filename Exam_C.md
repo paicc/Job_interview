@@ -3,10 +3,8 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 
 ##C code
 
----
 
 <ol>
-
 ####<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 
 <pre><code>
@@ -23,7 +21,7 @@ void main()
 <li>The compiler will not allow this statement</li>
 <li>The i within main will have a value of 0</li>
 </ol>
-  
+ 
 ---
 
 ####<li>what does the following program 'print'?</li>
