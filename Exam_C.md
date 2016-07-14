@@ -19,7 +19,7 @@ void main()
   4. The i within main will have a value of 0
 
 2. what does the following program 'print'?
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -38,7 +38,33 @@ int main()
 }
 ```
 
+3. what does the following program 'print'?
+```cpp
+#include <iostream>
+using namespace std;
+int func(int x)
+{
+  int count =0;
+  while(x)
+  {
+    count ++;
+    x=x&(x-1);
+  }
+  return count;
+}
 
+int main() {
+  cout << func(9999) << end1;
+  return 0;
+}
+```
+  1. 8
+  2. 9
+  3. 10
+  4. 11
 
+**note:** while(x) == while (x != 0)
+
+4. 
 
 
