@@ -27,7 +27,6 @@ int main()
   int x=2,y,z;
   x *=(y=z=5); cout << x <<end1;
   z=3;
-  
   x ==(y=z); cout << x <<end1;
   x =(y==z); cout << x <<end1;
   x =(y&z); cout << x <<end1;
