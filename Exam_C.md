@@ -1,11 +1,7 @@
-
 This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.tw/Product/Index/001680953) exam.
-
 ##C code
----
-
 <ol>
-####<li>Which of the following statement describe the results of executing the code snippet below in C?</li>
+####<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 <pre><code>
 int i = 1;
 void main()
@@ -20,12 +16,12 @@ void main()
 <li>The compiler will not allow this statement</li>
 <li>The i within main will have a value of 0</li>
 </ol>
- 
+
 ---
 
-####<li>what does the following program 'print'?</li>
+####<li>what does the following program `print`?</li>
 <pre><code>
-\#include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -41,11 +37,11 @@ int main()
   x=(y||z); cout << x << endl;
   return 0;
 }
-</cdoe></pre>
+</code></pre>
 
 ---
 
-####<li>what does the following program 'print'?</li>
+####<li>what does the following program `print`?</li>
 <pre><code>
 #include <iostream>
 using namespace std;
@@ -65,12 +61,12 @@ int main() {
   return 0;
 }
 </code></pre>
-<ol>
-<li>8</li>
-<li>9</li>
-<li>10</li>
-<li>11</li>
-</ol>
+  <ol>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  </ol>
 
 #####Note: while(x) == while (x != 0)
 
@@ -114,11 +110,12 @@ int main()
 </li>
 </ol>
 
-#####Note: for loop first round no ++
+#####Note: `for` loop first round no ++
 
 ---
 
 ####<li> What will be the output of the following C code?</li>
+
 <pre><code>
 #include:stdio.h
 main ()
@@ -130,7 +127,6 @@ main ()
 	printf(" %d,%d\n", *ptr, *(++ptr));
 }
 </code></pre>
-
  <ol>
  <li>8 8</li>
  <li>130 8</li>
