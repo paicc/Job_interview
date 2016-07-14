@@ -3,7 +3,8 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 
 ##C code
 
-1. Which of the following statement describe the results of executing the code snippet below in C?
+<ol>
+<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 ```c
 int i = 1;
 void main()
@@ -12,13 +13,14 @@ void main()
 }
 ```
 
-  
-  1. The i whithin main will have an undefined value
-  2. The i within main wil have a value of 1
-  3. The compiler will not allow this statement
-  4. The i within main will have a value of 0
+  <ol>
+  <li>The i whithin main will have an undefined value</li>
+  <li>The i within main wil have a value of 1</li>
+  <li>The compiler will not allow this statement</li>
+  <li>The i within main will have a value of 0</li>
+  </ol>
 
-2. what does the following program 'print'?
+<li>what does the following program 'print'?</li>
 ```c
 #include <iostream>
 using namespace std;
@@ -38,7 +40,7 @@ int main()
 }
 ```
 
-3. what does the following program 'print'?
+<li>what does the following program 'print'?</li>
 ```c
 #include <iostream>
 using namespace std;
@@ -58,13 +60,14 @@ int main() {
   return 0;
 }
 ```
-  1.8
-  2. 9
-  3. 10
-  4. 11
+  <ol>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
 
 **note:** while(x) == while (x != 0)
 
-4. 
+<li>ji</li>
 
 
