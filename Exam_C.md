@@ -6,7 +6,7 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 <ol>
 <li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 
-```
+```c
 int i = 1;
 void main()
 {
@@ -108,4 +108,6 @@ int main()
 </ol>
 
 *Note:* for loop first round no ++
+
+<li>
 
