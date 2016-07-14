@@ -41,31 +41,30 @@ void main()
 ---
 
 ####<li>what does the following program `print`?</li>
-<pre><code>
-#include <iostream>
-using namespace std;
-int func(int x)
-{
-  int count =0;
-  while(x)
-  {
-    count ++;
-    x=x&(x-1);
-  }
-  return count;
-}
 
-int main() {
-  cout << func(9999) << endl;
-  return 0;
-}
-</code></pre>
-  <ol>
-  <li>8</li>
-  <li>9</li>
-  <li>10</li>
-  <li>11</li>
-  </ol>
+	#include <iostream>
+	using namespace std;
+	int func(int x)
+	{
+		int count =0;
+	while(x)
+	{
+    	count ++;
+    	x=x&(x-1);
+	}
+	return count;
+	}
+
+	int main() {
+	cout << func(9999) << endl;
+	return 0;
+	}
+<ol>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+</ol>
 
 #####Note: while(x) == while (x != 0)
 
