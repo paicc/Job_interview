@@ -2,14 +2,11 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ##C code
 <ol>
 ####<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
-<pre><code>
-int i = 1;
-void main()
-{
-  int i = i;
-}
-</code></pre>
-
+	int i = 1;
+	void main()
+	{
+		int i = i;
+	}
 <ol>
 <li>The i whithin main will have an undefined value</li>
 <li>The i within main wil have a value of 1</li>
