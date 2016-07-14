@@ -4,7 +4,7 @@ this is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ##C code
 <ol>
 <li>Which of the following statement describe the results of executing the code snippet below in C?</li>
-```C
+```C++
 int i = 1;
 void main()
 {
