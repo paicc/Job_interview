@@ -66,7 +66,8 @@ int main() {
   <li>9</li>
   <li>10</li>
   <li>11</li>
-  <ol>
+  </ol>
+
 **note:** while(x) == while (x != 0)
 
 <li>ji</li>
