@@ -6,7 +6,7 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 <ol>
 <li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 
-```c
+```
 int i = 1;
 void main()
 {
@@ -68,8 +68,44 @@ int main() {
   <li>11</li>
   </ol>
 
-**note:** while(x) == while (x != 0)
+*Note:* while(x) == while (x != 0)
 
-<li>ji</li>
+<li>What is the difference of theese code?</li>
 
+<ol>
+<li>
+```C
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a,x;
+  for (a=0,x=0; a<=1 && !x++; a++)
+  {
+    a++;
+  }
+  cout << a << x << end1;
+  return 0;
+}
+```
+</li>
+<li>
+```C
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a,x;
+  for (a=0,x=0; a<=1 && !x++; )
+  {
+    a++;
+  }
+  cout << a << x << end1;
+  return 0;
+}
+```
+</li>
+</ol>
+
+*Note:* for loop first round no ++
 
