@@ -5,7 +5,7 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ---
 
 <ol>
-#### <li> Which of the following statement describe the results of executing the code snippet below in C?</li>
+<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 
 	int i = 1;
 	void main()
@@ -223,6 +223,50 @@ main ()
 </ol>
 
 ---
-<li>
+####<li>Note: C++ knowledge</li>
+<ol>
+<li>Arithmetic Conversion</li>
+<pre><code>
+	int ival = 3;
+	double dval = 3.14159;
 
+	ival + dval;	//ival change to double:3.0
+</code></pre>
+<li> </li>
+<pre><code>
+	int ival;
+	float fval;
+	double dval;
+	//進行運算前ival和fval都被轉換為double型態
+	dval = dval + fval + ival;	
+</code></pre>
+</ol>
+
+---
+
+####<li>What is the answer?</li>
+	#include <iostream>
+	using namespace std;
+
+	int main()
+	{
+		unsigned char a=0xA5;
+		unsigned char b=~a>>4+1;
+		
+		printf("b=%d\n", b);
+		return 0;
+	}
+<ol>
+	1. 245</br>
+	2. 246</br>
+	3. 250</br>
+	4. 2</br>
+</ol>
+
+#####Note:
+1. ![C運算子優先權] (https://sites.google.com/site/zsgititit/_/rsrc/1459904064687/home/c-cheng-shi-she-ji/ch2bian-shu-yu-yun-suan-zi/ch2%E8%AE%8A%E6%95%B8%E9%81%8B%E7%AE%97%E5%AD%90-001.jpg)
+2. eax暫存器為16bit，所以，0xA5 = 0000 0000 1010 0101
+
+---
+####<li> 
  
