@@ -268,5 +268,21 @@ main ()
 2. eax暫存器為16bit，所以，0xA5 = 0000 0000 1010 0101
 
 ---
-####<li> 
+####<li> 利用一個算式，判斷數字X是否為2的N次方，不可使用循環語句</li>
+2 = 10</br>
+4 = 100</br>
+8 = 1000</br>
+16 = 10000</br>
+所以，如果X-1後與X做AND運算，答案若為0，則X為2的N次方
+
+---
+####<li> (729,271)=_____</li>
+	int f(int x, int y)
+	{
+		return(x&y)+((x^y)>>1)
+	}
+
+---
+####<li> There are two int variables: a and b, don't use `if`,`?:`,`switch` or other judgement statements, find out the biggest one of the two numbers.</li>
+
  
