@@ -5,7 +5,7 @@ This is C exam. it form [程式員面試寶典(第三版)](http://m.sanmin.com.t
 ---
 
 <ol>
-####<li> Which of the following statement describe the results of executing the code snippet below in C?</li>
+#### <li> Which of the following statement describe the results of executing the code snippet below in C?</li>
 
 	int i = 1;
 	void main()
@@ -184,7 +184,7 @@ main ()
 	}
 
 ---
-####<li> what this answer?</li>
+#<li> *What this answer? </li>
 	#include <stdio.h>
 	
 	int main()
@@ -197,13 +197,32 @@ main ()
 	}
 
 #####Note:
- <ol>
-##### <li> Operator '&' used to get the address of the object</li>
+<ol>
+<li> Operator `&` used to get the address of the object</li>
+<pre><code>
 	p= &c; //C's address copy to P , p pointer to c
-##### <li> '*' is indirection
+</code></pre>
+<li> `*` is indirection</li>
+<pre><code>
 	int x = 1, y = 2, z[10];
 	int *ip; 	/* ip is a pointer to int */
 	ip = &x;	/* ip now points to x */
 	y = *ip;	/* y is 1 */
 	*ip = 0;	/* x is now 0 */:-1
 	ip = &z[0]	/* ip now points to z[0] */
+</code></pre>
+<li> </li>
+<pre><code>
+	unsigned int *a;
+	char *b = (char *)&a;
+	
+	same as
+	unsigned int *p = &a;	//p的內容為a的位址，即p指向a
+	char *b = (char *)p;	//此處的強制轉換只是使b也指向a
+</code></pre>
+</ol>
+
+---
+<li>
+
+ 
