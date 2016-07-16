@@ -264,7 +264,7 @@ main ()
 </ol>
 
 #####Note:
-1. ![C運算子優先權] (https://sites.google.com/site/zsgititit/_/rsrc/1459904064687/home/c-cheng-shi-she-ji/ch2bian-shu-yu-yun-suan-zi/ch2%E8%AE%8A%E6%95%B8%E9%81%8B%E7%AE%97%E5%AD%90-001.jpg)
+1. ![C運算子優先權] (https://sites.google.com/site/zsgititit/_/rsrc/1459904064687/home/c-cheng-shi-she-ji/ch2bian-shu-yu-yun-suan-zi/ch2%E8%AE%8A%E6%95%B8%E9%81%8B%E7%AE%97%E5%AD%90-001.jpg "C運算子優先權")
 2. eax暫存器為16bit，所以，0xA5 = 0000 0000 1010 0101
 
 ---
