@@ -284,5 +284,25 @@ main ()
 
 ---
 ####<li> There are two int variables: a and b, don't use `if`,`?:`,`switch` or other judgement statements, find out the biggest one of the two numbers.</li>
+	int max = ((a+b) + abs(a-b)) / 2
+#####Note: abs function 作用為取絕對值
+
+---
+####<li>將A.b兩個值進行交換，而不使用任何變數</li>
+	a = a^b;
+	b = a^b;
+	a = a^b;
+#####Note：NOR(^) => 相同為0 相異為1
+---
+
+####<li>在C++程式中呼叫被C Compiler所編譯後的函數，為何需要加extern "C"?</li>
+	因為C++編譯後在library中的名字與C語言不同。
+	C++語言支援函數重載，C語言不支援函數重載。
+	所以，C++提供了C連接交換指定符號 extern "C"解決名字匹配問題
+
+---
+
+####<li>
+
 
  
